@@ -1,5 +1,22 @@
-# ProcureLens — AI-Powered Procurement Intelligence
+<div align="center">
+# ProcureLens
+### AI-Powered Procurement Intelligence
 
+**Turn raw procurement records into explainable insights, anomaly investigations, and interactive visualizations.**
+
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![LangGraph](https://img.shields.io/badge/Orchestration-LangGraph-1C3C3C)](https://www.langchain.com/langgraph)
+[![LangChain](https://img.shields.io/badge/Framework-LangChain-1C3C3C)](https://www.langchain.com/)
+[![Groq](https://img.shields.io/badge/Inference-Groq-F55036)](https://groq.com/)
+[![Supabase](https://img.shields.io/badge/Database-Supabase-3FCF8E?logo=supabase&logoColor=white)](https://supabase.com/)
+[![Plotly](https://img.shields.io/badge/Visualization-Plotly-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/)
+[![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+
+[Repository](https://github.com/Om-more/Switch_project)
+
+</div>
+
+---
 ProcureLens is a multi-agent procurement analytics prototype. It uses LangGraph to coordinate specialist agents that transform procurement data, investigate spending patterns, and generate interactive visualizations.
 
 The current project connects to a Supabase PostgreSQL table, uses Groq's `openai/gpt-oss-120b` model for agent reasoning, and provides terminal and Streamlit interfaces.
